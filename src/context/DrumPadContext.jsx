@@ -4,27 +4,31 @@ export const DrumPadContext = createContext();
 const drumPatch = [
 	{
 		key: 'q',
-		info: 'Heater 1',
+		info: 'Closed Hat',
 		class: 'pad',
-		clip: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'
+		clip:
+			'https://res.cloudinary.com/dxj51gxjo/video/upload/v1570619801/drum-samples/Closed_Hat_041.wav'
 	},
 	{
 		key: 'w',
-		info: 'Heater 2',
+		info: 'Snare',
 		class: 'pad',
-		clip: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3'
+		clip:
+			'https://res.cloudinary.com/dxj51gxjo/video/upload/v1570619752/drum-samples/XBase09_Snare18.wav'
 	},
 	{
 		key: 'e',
-		info: 'Heater 3',
+		info: 'Analog Snare',
 		class: 'pad',
-		clip: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3'
+		clip:
+			'https://res.cloudinary.com/dxj51gxjo/video/upload/v1570619669/drum-samples/Snare_Analogue14.wav'
 	},
 	{
 		key: 'a',
-		info: 'Heater 4',
+		info: 'Misc Perc',
 		class: 'pad',
-		clip: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3'
+		clip:
+			'https://res.cloudinary.com/dxj51gxjo/video/upload/v1570619570/drum-samples/Misc_Analague_perc_04.wav'
 	},
 	{
 		key: 's',

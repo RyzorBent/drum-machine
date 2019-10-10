@@ -31,7 +31,7 @@ const DrumPad = ({ id, classN, clipSrc }) => {
 		<div className={classN} id={id}>
 			{id.toUpperCase()}
 			<audio id={`audio-${id}`}>
-				<source src={clipSrc} />
+				<source src={clipSrc} type="audio/wav" />
 			</audio>
 		</div>
 	);
